@@ -1,0 +1,47 @@
+.header{
+   width: 100%;
+   min-height: 528px;
+   background: linear-gradient(122.67deg, #6C63FF -1.86%, #82C9CC 119.95%),
+   linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 77.06%), #C4C4C4;
+}
+
+nav{
+   padding-top:  3%;
+   font-family:  "Nunito"  sans-serif !important;
+}
+
+.dbuddy{
+   font-weight: 800;
+   font-size: 21px;
+   margin-left: 2%;
+   color: #ffff ; 
+}
+
+.about, .support{
+    color: rgba(255, 255, 255, 0.91);
+    width: 52px;
+    margin-right: 52px;
+}
+
+.about, .support, .download-btn{
+    float: right;
+}
+
+.download-btn{
+    color:  rgba(0, 0, 0, 0.91);
+    font-size: 15px;
+    background-color: #fff;
+    padding: 9px;
+    margin-right: 6%;
+    width: 120px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 45px;
+    margin-top: -5px;
+}
+
+
+.header .container-fluid{
+    min-height: 74vh;
+}
