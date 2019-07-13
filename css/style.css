@@ -1,19 +1,31 @@
+/*reusable classes*/
+body a:hover{
+    color:#fff;
+      text-decoration: none;
+}
+
+
 .header{
    width: 100%;
-   min-height: 528px;
+   min-height: 100vh;
    background: linear-gradient(122.67deg, #6C63FF -1.86%, #82C9CC 119.95%),
    linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 77.06%), #C4C4C4;
 }
 
 nav{
    padding-top:  3%;
-   font-family:  "Nunito"  sans-serif !important;
+   font-family:  "Nunito", sans-serif;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: #fff;
 }
 
 .dbuddy{
    font-weight: 800;
    font-size: 21px;
-   margin-left: 2%;
+   margin-left: 3%;
    color: #ffff ; 
 }
 
@@ -33,15 +45,127 @@ nav{
     background-color: #fff;
     padding: 9px;
     margin-right: 6%;
-    width: 120px;
+    width: 110px;
     text-align: center;
     font-weight: bold;
     border-radius: 5px;
-    height: 45px;
+    height: 40px;
     margin-top: -5px;
 }
 
+.download-btn:hover{
+    color: rgba(0, 0, 0, 0.91) !important;
+}
 
 .header .container-fluid{
     min-height: 74vh;
 }
+
+/*easy deliveries*/
+
+.row{
+    width: 100%;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.text-holder{
+    margin-left: 7%; 
+}
+
+.text-holder h1{
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.text-holder p{
+    font-family: "Cabin", sans-serif;
+    font-size: 20px;
+    color: #B7E6FF;
+    margin-top: 4%;
+    margin-bottom: 8%;
+}
+
+.btn-holder  a{
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-bottom: 9px;
+    padding-top: 10px;
+    background: rgba(19, 241, 252, 0.2);
+    border: 2px solid rgba(19, 241, 252, 0.2);
+    border-radius: 24px;
+    font-size: 12px;
+    font-weight: bold; 
+    font-family: "Cabin" , sans-serif;
+    color: #fff;
+    letter-spacing: 0.1em;
+    margin-left: 7%;
+
+}
+
+.fab{
+    margin-right: 1%;
+}
+
+.image-container{
+    margin-left: 14%;
+}
+
+.image-container img{
+    width: 450px;
+}
+
+/*media queries for header*/
+
+
+/*features section*/
+.features{
+    padding-top: 5%;
+}
+
+.features-text-holder{
+    position: relative;
+    top: 75px;
+}
+
+.features-text-holder h1{
+    font-size: 34px;
+    font-family: "Cabin", sans-serif;
+    color: #4F79A4;
+    font-weight: bolder;
+    position: relative;
+    bottom: 13px;
+}
+
+.features-text-holder p{
+    font-size: 15px;
+    color: #555555;
+    font-family: "Cabin" , sans-serif;
+}
+
+.features-image-container {
+    padding-left: 10%;
+}
+
+.features-image-container img{
+    width: 577px;
+}
+
+.features-btn{ 
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 9px;
+    padding-top: 10px;
+    background: #6C63FF;
+    border: 2px solid rgba(108, 99, 255, 0.2);
+    border-radius: 24px;
+    font-size: 12px;
+    font-weight: bold; 
+    font-family: "Cabin" , sans-serif;
+    color: #fff;
+    position: relative;
+    top: 30px;
+}
+
