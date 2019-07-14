@@ -118,7 +118,65 @@ nav a:hover{
 }
 
 /*media queries for header*/
+@media  screen and (max-width: 1115px){
+    .dbuddy{
+        font-size: 12px;
+        margin-left: 2%;
+    }
 
+    .download-btn{
+        padding: 8px;
+        height: 33px;
+        font-size: 12px;
+        width: 100px;
+        margin-top: 0px;
+        margin-right: 2%;
+    }
+
+    .support, .about{
+        font-size: 12px;
+        margin-top: 7px;
+        margin-right: 10px;
+        width: 40px;
+    }
+
+    .header .container-fluid{
+        position: relative;
+        top: 40px;
+        text-align: center;
+    }
+
+    .btn-holder{
+        margin-top: 30px;
+    }
+
+    .btn-holder a{
+        margin-left: 10px
+    }
+
+    .text-holder h1{
+        font-size: 40px;
+    }
+
+    .text-holder p{
+        font-size: 17px;
+    }
+
+    .image-container{
+        margin-left: 4%;
+        margin-top: 15%;
+    }
+
+    .image-container img{
+        width: 300px;
+    }
+}
+
+@media  screen and (max-width: 360px){
+    .btn-holder a{
+        font-size: 9px;
+    }
+}
 
 /*features section*/
 .features{
@@ -161,7 +219,7 @@ nav a:hover{
     background: #6C63FF;
     border: 2px solid rgba(108, 99, 255, 0.2);
     border-radius: 24px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold; 
     font-family: "Cabin" , sans-serif;
     color: #fff;
@@ -169,3 +227,161 @@ nav a:hover{
     top: 30px;
 }
 
+/*media query for features section*/
+@media  screen and (max-width: 1115px){
+    .features{
+        text-align: center;
+    }
+
+    .features-image-container img{
+        width: 300px;
+    }
+
+    .features-image-container{
+        padding-left: 0;
+    }
+
+    .features-text-holder{
+        margin-left: 13px;
+    }
+
+    .features-btn{
+        top: 15px;
+    }
+}
+
+
+/*Friendly User Interface*/
+.interface{
+     position: relative;
+     top: 210px
+}
+
+.interface-text-holder h1{
+    color: #4F79A4;
+    font-family: "Cabin" , sans-serif;
+    font-weight: bold;
+    font-size: 34px; 
+    position: relative;
+    bottom: 13px;
+}
+
+.interface-text-holder p{
+    font-size: 15px;
+    color: #555555;
+    font-family: "Cabin" , sans-serif;
+}
+
+.interface-btn{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 9px;
+    padding-top: 10px;
+    background: #6C63FF;
+    border: 2px solid rgba(108, 99, 255, 0.2);
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: bold; 
+    font-family: "Cabin" , sans-serif;
+    color: #fff;
+    position: relative;
+    top: 30px;
+}
+
+.interface-image-container img{
+    width: 557px;
+}
+
+/*media  query for  Friendly User Interface section*/
+@media  screen and (max-width: 1115px){
+    .interface{
+        text-align: center;
+    }
+
+    .interface-image-container img{
+        width: 300px;
+    }
+
+    .interface-image-container{
+        padding-left: 0;
+        margin-top: 25%;
+    }
+
+    .interface-text-holder{
+        margin-left: 13px;
+    }
+
+    .interface-btn{
+        top: 15px;
+    }
+}
+
+
+/*our app section*/
+.app{
+    position: relative;
+    top: 640px;
+    background: linear-gradient(180deg, #6C63FF -2.1%, rgba(21, 18, 62, 0.49) 103.49%), #C4C4C4;
+    min-height: 540px;;
+}
+
+.app-image-container{
+    position: relative;
+    bottom: 155px;
+}
+
+.app-image-container  img{
+    width: 640px;
+}
+
+.app-text-holder{
+position: relative;
+top: 150px;
+width: 370px;
+}
+
+.app-text-holder h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #fff;
+    position: relative;
+    bottom: 10px;
+}
+
+.app-text-holder p{
+    color: #B7E6FF;
+    font-family: "Cabin", sans-serif;
+    font-size: 16px;
+}
+.app .col-md-6{
+    min-height: 87vh;
+}
+
+/*media query for our app section*/
+@media  screen and (max-width: 1115px){
+    .app{
+        text-align: center;
+    }
+
+    .app-image-container img{
+        width: 300px;
+    }
+
+    .app-image-container{
+        padding-left: 0;
+    }
+
+    .app-text-holder{
+        margin-left: 13px;
+    }
+}
+
+/* footer
+.footer{
+    width: 1260px;
+height: 102px;
+position: relative;
+bottom: 0px; 
+background: #CBC3E2;
+} */
