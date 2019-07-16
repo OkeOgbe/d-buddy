@@ -1,46 +1,53 @@
 /*reusable classes*/
-body a:hover{
-    color:#fff;
-      text-decoration: none;
+body a:hover {
+    color: #fff;
+    text-decoration: none;
 }
 
 
-.header{
-   width: 100%;
-   min-height: 100vh;
-   background: linear-gradient(122.67deg, #6C63FF -1.86%, #82C9CC 119.95%),
-   linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 77.06%), #C4C4C4;
+body {
+    overflow-x: hidden;
 }
 
-nav{
-   padding-top:  3%;
-   font-family:  "Nunito", sans-serif;
+.header {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(122.67deg, #6C63FF -1.86%, #82C9CC 119.95%),
+        linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 77.06%), #C4C4C4;
 }
 
-nav a:hover{
+nav {
+    padding-top: 3%;
+    font-family: "Nunito", sans-serif;
+}
+
+nav a:hover {
     text-decoration: none;
     color: #fff;
 }
 
-.dbuddy{
-   font-weight: 800;
-   font-size: 21px;
-   margin-left: 3%;
-   color: #ffff ; 
+.dbuddy {
+    font-weight: 800;
+    font-size: 21px;
+    margin-left: 3%;
+    color: #ffff;
 }
 
-.about, .support{
+.about,
+.support {
     color: rgba(255, 255, 255, 0.91);
     width: 52px;
     margin-right: 52px;
 }
 
-.about, .support, .download-btn{
+.about,
+.support,
+.download-btn {
     float: right;
 }
 
-.download-btn{
-    color:  rgba(0, 0, 0, 0.91);
+.download-btn {
+    color: rgba(0, 0, 0, 0.91);
     font-size: 15px;
     background-color: #fff;
     padding: 9px;
@@ -53,34 +60,34 @@ nav a:hover{
     margin-top: -5px;
 }
 
-.download-btn:hover{
+.download-btn:hover {
     color: rgba(0, 0, 0, 0.91) !important;
 }
 
-.header .container-fluid{
+.header .container-fluid {
     min-height: 74vh;
 }
 
 /*easy deliveries*/
 
-.row{
+.row {
     width: 100%;
     align-items: center;
     min-height: 80vh;
 }
 
-.text-holder{
-    margin-left: 7%; 
+.text-holder {
+    margin-left: 7%;
 }
 
-.text-holder h1{
+.text-holder h1 {
     font-family: "Montserrat", sans-serif;
     color: #fff;
     font-weight: bold;
     font-size: 50px;
 }
 
-.text-holder p{
+.text-holder p {
     font-family: "Cabin", sans-serif;
     font-size: 20px;
     color: #B7E6FF;
@@ -88,7 +95,7 @@ nav a:hover{
     margin-bottom: 8%;
 }
 
-.btn-holder  a{
+.btn-holder a {
     padding-left: 19px;
     padding-right: 19px;
     padding-bottom: 9px;
@@ -97,34 +104,34 @@ nav a:hover{
     border: 2px solid rgba(19, 241, 252, 0.2);
     border-radius: 24px;
     font-size: 12px;
-    font-weight: bold; 
-    font-family: "Cabin" , sans-serif;
+    font-weight: bold;
+    font-family: "Cabin", sans-serif;
     color: #fff;
     letter-spacing: 0.1em;
     margin-left: 7%;
 
 }
 
-.fab{
+.fab {
     margin-right: 1%;
 }
 
-.image-container{
+.image-container {
     margin-left: 14%;
 }
 
-.image-container img{
+.image-container img {
     width: 450px;
 }
 
 /*media queries for header*/
-@media  screen and (max-width: 1115px){
-    .dbuddy{
+@media screen and (max-width: 1115px) {
+    .dbuddy {
         font-size: 12px;
         margin-left: 2%;
     }
 
-    .download-btn{
+    .download-btn {
         padding: 8px;
         height: 33px;
         font-size: 12px;
@@ -133,62 +140,63 @@ nav a:hover{
         margin-right: 2%;
     }
 
-    .support, .about{
+    .support,
+    .about {
         font-size: 12px;
         margin-top: 7px;
         margin-right: 10px;
         width: 40px;
     }
 
-    .header .container-fluid{
+    .header .container-fluid {
         position: relative;
         top: 40px;
         text-align: center;
     }
 
-    .btn-holder{
+    .btn-holder {
         margin-top: 30px;
     }
 
-    .btn-holder a{
+    .btn-holder a {
         margin-left: 10px
     }
 
-    .text-holder h1{
+    .text-holder h1 {
         font-size: 40px;
     }
 
-    .text-holder p{
+    .text-holder p {
         font-size: 17px;
     }
 
-    .image-container{
+    .image-container {
         margin-left: 4%;
         margin-top: 15%;
     }
 
-    .image-container img{
+    .image-container img {
         width: 300px;
     }
 }
 
-@media  screen and (max-width: 360px){
-    .btn-holder a{
+@media screen and (max-width: 360px) {
+    .btn-holder a {
         font-size: 9px;
     }
 }
 
 /*features section*/
-.features{
+.features {
     padding-top: 5%;
 }
 
-.features-text-holder{
+.features-text-holder {
     position: relative;
     top: 75px;
 }
 
-.features-text-holder h1{
+.features-text-holder h1 {
     font-size: 34px;
     font-family: "Cabin", sans-serif;
     color: #4F79A4;
@@ -197,21 +205,21 @@ nav a:hover{
     bottom: 13px;
 }
 
-.features-text-holder p{
+.features-text-holder p {
     font-size: 15px;
     color: #555555;
-    font-family: "Cabin" , sans-serif;
+    font-family: "Cabin", sans-serif;
 }
 
 .features-image-container {
     padding-left: 10%;
 }
 
-.features-image-container img{
+.features-image-container img {
     width: 577px;
 }
 
-.features-btn{ 
+.features-btn {
     padding-left: 35px;
     padding-right: 35px;
     padding-bottom: 9px;
@@ -220,59 +228,59 @@ nav a:hover{
     border: 2px solid rgba(108, 99, 255, 0.2);
     border-radius: 24px;
     font-size: 14px;
-    font-weight: bold; 
-    font-family: "Cabin" , sans-serif;
+    font-weight: bold;
+    font-family: "Cabin", sans-serif;
     color: #fff;
     position: relative;
     top: 30px;
 }
 
 /*media query for features section*/
-@media  screen and (max-width: 1115px){
-    .features{
+@media screen and (max-width: 1115px) {
+    .features {
         text-align: center;
     }
 
-    .features-image-container img{
+    .features-image-container img {
         width: 300px;
     }
 
-    .features-image-container{
+    .features-image-container {
         padding-left: 0;
     }
 
-    .features-text-holder{
+    .features-text-holder {
         margin-left: 13px;
     }
 
-    .features-btn{
+    .features-btn {
         top: 15px;
     }
 }
 
 
 /*Friendly User Interface*/
-.interface{
-     position: relative;
-     top: 210px
+.interface {
+    position: relative;
+    top: 210px
 }
 
-.interface-text-holder h1{
+.interface-text-holder h1 {
     color: #4F79A4;
-    font-family: "Cabin" , sans-serif;
+    font-family: "Cabin", sans-serif;
     font-weight: bold;
-    font-size: 34px; 
+    font-size: 34px;
     position: relative;
     bottom: 13px;
 }
 
-.interface-text-holder p{
+.interface-text-holder p {
     font-size: 15px;
     color: #555555;
-    font-family: "Cabin" , sans-serif;
+    font-family: "Cabin", sans-serif;
 }
 
-.interface-btn{
+.interface-btn {
     padding-left: 35px;
     padding-right: 35px;
     padding-bottom: 9px;
@@ -281,66 +289,67 @@ nav a:hover{
     border: 2px solid rgba(108, 99, 255, 0.2);
     border-radius: 24px;
     font-size: 14px;
-    font-weight: bold; 
-    font-family: "Cabin" , sans-serif;
+    font-weight: bold;
+    font-family: "Cabin", sans-serif;
     color: #fff;
     position: relative;
     top: 30px;
 }
 
-.interface-image-container img{
+.interface-image-container img {
     width: 557px;
 }
 
 /*media  query for  Friendly User Interface section*/
-@media  screen and (max-width: 1115px){
-    .interface{
+@media screen and (max-width: 1115px) {
+    .interface {
         text-align: center;
     }
 
-    .interface-image-container img{
+    .interface-image-container img {
         width: 300px;
     }
 
-    .interface-image-container{
+    .interface-image-container {
         padding-left: 0;
-        margin-top: 25%;
+        margin-top: 29%;
     }
 
-    .interface-text-holder{
+    .interface-text-holder {
         margin-left: 13px;
     }
 
-    .interface-btn{
+    .interface-btn {
         top: 15px;
     }
 }
 
 
 /*our app section*/
-.app{
+.app {
     position: relative;
     top: 640px;
     background: linear-gradient(180deg, #6C63FF -2.1%, rgba(21, 18, 62, 0.49) 103.49%), #C4C4C4;
-    min-height: 540px;;
+    min-height: 540px;
+    ;
 }
 
-.app-image-container{
+.app-image-container {
     position: relative;
     bottom: 155px;
 }
 
-.app-image-container  img{
+.app-image-container img {
     width: 640px;
 }
 
-.app-text-holder{
-position: relative;
-top: 150px;
-width: 370px;
+.app-text-holder {
+    position: relative;
+    top: 150px;
+    width: 370px;
 }
 
-.app-text-holder h1{
+.app-text-holder h1 {
     font-family: "Montserrat", sans-serif;
     font-size: 50px;
     font-weight: bolder;
@@ -349,39 +358,92 @@ width: 370px;
     bottom: 10px;
 }
 
-.app-text-holder p{
+.app-text-holder p {
     color: #B7E6FF;
     font-family: "Cabin", sans-serif;
     font-size: 16px;
 }
-.app .col-md-6{
+
+.app .col-md-6 {
     min-height: 87vh;
 }
 
 /*media query for our app section*/
-@media  screen and (max-width: 1115px){
-    .app{
+@media screen and (max-width: 1115px) {
+    .app {
         text-align: center;
     }
 
-    .app-image-container img{
-        width: 300px;
+    .app-image-container img {
+        width: 438px;
+        position: relative;
+        right: 96px;
     }
 
-    .app-image-container{
+    .app-image-container {
         padding-left: 0;
+        width: 100%;
     }
 
-    .app-text-holder{
-        margin-left: 13px;
+    .app-text-holder {
+        width: 100%;
+        top: 0;
+    }
+
+
+    .app .container-fluid {
+        min-height: 370px;
+    }
+
+    .app .col-md-6 {
+        min-height: 370px;
     }
 }
 
-/* footer
-.footer{
-    width: 1260px;
-height: 102px;
-position: relative;
-bottom: 0px; 
-background: #CBC3E2;
-} */
+/*footer*/
+.footer {
+    height: 80px;
+    position: relative;
+    bottom: 0px;
+    background: #CBC3E2;
+    top: 640px;
+    font-family: "Lato"sans-serif;
+}
+
+.footer .row {
+    min-height: 80px;
+}
+
+.icon-holder {
+    text-align: center;
+}
+
+.icon-holder span {
+    background: #fff;
+    border-radius: 50px;
+    padding-left: 8px;
+    padding-right: 2PX;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-right: 15px;
+}
+
+.link-holder {
+    text-align: right;
+}
+
+.link-holder a {
+    margin-right: 33px;
+}
+
+/*media query for footer*/
+@media screen and (max-width: 1115px) {
+    .link-holder {
+        text-align: center;
+    }
+
+    .link-holder a {
+        font-size: 12px;
+        margin-right: 10px;
+    }
+}
