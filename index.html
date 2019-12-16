@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html.>
+<html>
 
     <head>
         <meta charset="Utf-8">
@@ -22,33 +22,54 @@
     <body>
 
         <!--header-->
+        <div class="mobile_nav" id="myNav">
+            <a href="javascript:void(0)" class="close_btn" onclick="closeNav()">&times;</a>
+            <div class="mobile_nav_content">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Support</a>
+                <a href="#" class="default_btn">Download</a>
+            </div>
+        </div>
         <div class="header">
+            <nav id="nav">
+                <div class="section_padding">
 
-            <!--navigation-->
-            <nav>
-                <a href="#" class="dbuddy">d=buddy</a>
-                <a href="#" class="download-btn">Download</a>
-                <a href="#" class="support">Support</a>
-                <a href="#" class="about">About</a>
+                    <a href="#" class="logo">d-buddy</a>
+
+                    <span class="open_btn" onclick="openNav()">&#9776;</span>
+
+                    <div class="nav_link_holder">
+                        <a href="#">About</a>
+                        <a href="#">Support</a>
+                        <a href="#" class="default_btn">Download</a>
+                    </div>
+
+
+                </div>
             </nav>
 
-            <div class="container-fluid">
+
+
+
+            <div class="section_padding">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="text-holder">
-                            <h1>Easy Deliveries</h1>
-                            <p>The one stop app to find handy men who you could trust to deliver
-                                your goods and packages within town fast and at low cost</p>
+                            <h2>Easy Deliveries</h2>
+                            <p class="pt-2 pb-2">The one stop app to find handy men who you could trust to deliver
+                                your goods and packages within town fast and at low cost
+                            </p class=>
                         </div>
                         <div class="btn-holder">
-                            <a href="#"><i class="fab fa-apple"></i>DOWNLOAD</a>
-                            <a href="#"><i class="fab fa-android"></i>DOWNLOAD</a>
+                            <a href="#"><i class="fab fa-apple mr-2"></i>DOWNLOAD</a>
+                            <a href="#"><i class="fab fa-android mr-2"></i>DOWNLOAD</a>
                         </div>
 
                     </div>
                     <div class="col-md-6">
-                        <div class="image-container">
-                            <img src="assets/img/fig1.png">
+                        <div class="image-container w-100">
+                            <img src="assets/img/fig1.png" class="w-100">
                         </div>
                     </div>
                 </div>
@@ -144,13 +165,15 @@
                     </div>
                     <div class="col-md-6">
                         <div class="icon-holder">
-                           <span><i class="fab fa-instagram"></i></span>
+                            <span><i class="fab fa-instagram"></i></span>
                             <span><i class="fab fa-twitter"></i></span>
                             <span><i class="fab fa-facebook"></i></div></span>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        </div>
     </body>
-</html>
+    <script src="js/app.js"></script>
+
+    </html>
